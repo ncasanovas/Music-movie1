@@ -1,0 +1,106 @@
+﻿body{
+    padding-top: 50px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 100px;
+}
+a.navbar-brand {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+ li {
+    font-family: 'Comfortaa', cursive;
+}
+
+.inicio-sesion {
+    float: right;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+}
+.registro {
+    float: right;
+    margin-top: 0.5em;
+}
+#alegre {
+    text-align: right;
+    padding-right: 2em;
+}
+
+#apasionado {
+    text-align:left; 
+    padding-left: 2em;
+}
+
+#depresivo {
+    text-align: right;
+    padding-right: 2em;
+}
+
+#tranquilo {
+    text-align: left;
+    padding-left: 2em;
+}
+
+ 
+
+ ul.menu {
+    margin: 0px auto;
+    padding: 0;
+    position: relative;
+    width: 20em;
+    height: 20em;
+    border-radius: 100%;
+}
+
+    ul.menu li {
+        position: absolute;
+        list-style: none;
+        width: 10em;
+        height: 10em;
+        text-align: center;
+        line-height: 9em;
+        /* opacity:0.5; */
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+        ul li:hover {
+            cursor: pointer;
+        }
+
+        ul.menu li:nth-child(1) {
+            top: 0;
+            left: 0;
+            background: #0f9;
+            border-top-left-radius: 100%;
+        }
+
+        ul.menu li:nth-child(2) {
+            top: 0em;
+            left: 10em;
+            background: #f09;
+            border-top-right-radius: 100%;
+        }
+
+       ul.menu li:nth-child(3) {
+            top: 10em;
+            left: 0;
+            background: #09f;
+            border-bottom-left-radius: 100%
+        }
+
+        ul.menu li:nth-child(4) {
+            top: 10em;
+            left: 10em;
+            background: #90f;
+            border-bottom-right-radius: 100%
+        }

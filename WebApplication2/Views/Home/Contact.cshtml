@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<address>
+    One Microsoft Way<br />
+    Redmond, WA 98052-6399<br />
+    <abbr title="Phone">P:</abbr>
+    425.555.0100
+</address>
+
+<form action="@Url.Action("RecibirContacto", "Home")" method="post">
+    <div class="row">
+        <div class="form-group col-md-4">
+            <label for="nombre">Nombre: </label>
+            <input name="nombre" class="form-control" type="text" placeholder="Ingresá tu nombre..." required>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-4">
+            <label for="email">Email:</label>
+            <input name="mail" class="form-control" aria-describedby="emailHelp" placeholder="Ingresá tu email" required>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="form-group col-md-4">
+            <label for="mensaje">Mensaje: </label>
+            <textarea name="mensaje" class="form-control" rows="3" required></textarea>
+        </div>
+    </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+
+
+<div data-video="1w7OgIMMRc4"
+
+data-autoplay="0"
+
+data-loop="1"
+
+id="youtube-audio">
+
+</div>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+
+<script src="https://cdn.rawgit.com/labnol/files/master/yt.js"></script>
